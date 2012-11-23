@@ -1,25 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Continents</title>
-    
-    <link href="http://cdn.kendostatic.com/2012.1.229/styles/kendo.common.min.css" rel="stylesheet">
-    <link href="http://cdn.kendostatic.com/2012.1.229/styles/kendo.default.min.css" rel="stylesheet">
-    <link href="http://cdn.kendostatic.com/2012.1.229/styles/kendo.mobile.all.min.css" rel="stylesheet">
-
-    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script src="http://cdn.kendostatic.com/2012.1.229/js/kendo.all.min.js"></script>
-
+    <title>Kendo Mobile Demo</title>
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.mobile.all.min.css" rel="stylesheet">
+    <link href="http://cdn.kendostatic.com/2012.3.1114/styles/kendo.common.min.css" rel="stylesheet">
     <link rel="stylesheet" href="content/css/style.css">
 </head>
 
 <body>
-
     <div data-role="layout" data-id="default">
         <header data-role="header">
             <div data-role="navbar">
                 <span data-role="view-title"></span>
-                <a class="about-button" data-align="right" href="content/about.html" data-role="button">About</a>
+                <a data-role="button" data-align="right" href="content/about.html" class="nav-button">About</a>
             </div>
         </header>
 
@@ -41,10 +34,10 @@
         </ul>
     </div>
 
-    <div data-title="Continent Details" data-role="view" id="continentDetails" data-transition="slide" data-layout="default" data-show="showContinentDetails">
+    <div data-title="Details" data-role="view" id="continentDetails" data-transition="slide" data-layout="default" data-show="showContinentDetails">
         <header data-role="header">
             <div data-role="navbar">
-                <a data-role="backbutton" data-align="left">Back</a>
+                <a data-role="backbutton" data-align="left" class="nav-button">Back</a>
                 <span data-role="view-title"></span>
             </div>
         </header>
@@ -72,7 +65,7 @@
         </div>
     </div>
 
-    <div data-title="Country Details" data-role="view" id="countryDetails" data-transition="slide" data-layout="default" data-show="showCountryDetails">
+    <div data-title="Details" data-role="view" id="countryDetails" data-transition="slide" data-layout="default" data-show="showCountryDetails">
         <header data-role="header">
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left">Back</a>
@@ -86,15 +79,13 @@
 
     <div data-role="view" id="account" data-layout="default" data-title="My Account">
         <ul data-role="listview" data-style="inset" data-type="group">
-            <li>
-                Account
+            <li>Account
                 <ul>
                     <li>Username<span class="list-item-data">userName</span></li>
                     <li>Email<span class="list-item-data">userName@home.com</span></li>
                 </ul>
             </li>
-            <li>
-                Notifications
+            <li>Notifications
                 <ul>
                     <li>New products<input type="checkbox" data-role="switch" /></li>
                     <li>Exclusive promos<input type="checkbox" data-role="switch" checked="checked" /></li>
@@ -102,6 +93,7 @@
             </li>
         </ul>
     </div>
+
 
     <script id="continentsTemplate" type="text/x-kendo-template">
         <a data-role="detailbutton" data-style="detaildisclose" href="\#continentDetails?id=#:id#"></a>
@@ -136,6 +128,8 @@
         <h4><span style="color: gray">GDP:</span> #:gdp#</h4>
     </script>    
 
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://cdn.kendostatic.com/2012.3.1114/js/kendo.all.min.js"></script>    
     <script>
         var app;
         var schema = {model: {}};
