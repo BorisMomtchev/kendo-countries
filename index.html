@@ -41,7 +41,7 @@
         </ul>
     </div>
 
-    <div data-role="view" id="continentDetails" data-transition="slide" data-layout="default" data-show="showContinentDetails">
+    <div data-title="Continent Details" data-role="view" id="continentDetails" data-transition="slide" data-layout="default" data-show="showContinentDetails">
         <header data-role="header">
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left">Back</a>
@@ -72,7 +72,7 @@
         </div>
     </div>
 
-    <div data-role="view" id="countryDetails" data-transition="slide" data-layout="default" data-show="showCountryDetails">
+    <div data-title="Country Details" data-role="view" id="countryDetails" data-transition="slide" data-layout="default" data-show="showCountryDetails">
         <header data-role="header">
             <div data-role="navbar">
                 <a data-role="backbutton" data-align="left">Back</a>
@@ -131,7 +131,9 @@
     <script id="countryDetailsTemplate" type="text/x-kendo-template">
         <h2>#:name#</h2>
         <hr>
-        <h4>Capital: #:capital#</h4>
+        <h4><span style="color: gray">Capital:</span> #:capital#</h4>
+        <h4><span style="color: gray">Population:</span> #:population#</h4>
+        <h4><span style="color: gray">GDP:</span> #:gdp#</h4>
     </script>    
 
     <script>
