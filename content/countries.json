@@ -1,30 +1,100 @@
 [
     {
          "id": 1,
+         "continentId": 1,
          "name": "Sudan",
-         "continent": "Africa",
-         "image": "sudan.png",
+         "image": "flag_sudan.png",
+         "capital": "Khartoum",
          "visited": true
     },
     {
          "id": 2,
-         "name": "Congo",
-         "continent": "Africa",
-         "image": "congo.png",
+         "continentId": 1,
+         "name": "Zimbabwe",
+         "image": "flag_zimbabwe.png",
+         "capital": "Harare",
          "visited": true
     },
     {
          "id": 3,
-         "name": "Zimbabwe",
-         "continent": "Africa",
-         "image": "zimbabwe.png",
+         "continentId": 2,
+         "name": "Antarctica",
+         "image": "flag_antarctica.png",
+         "capital": "NA",
          "visited": true
     },
     {
          "id": 4,
-         "name": "Bulgaria",
-         "continent": "Europe",
-         "image": "bulgaria.png",
+         "continentId": 3,         
+         "name": "India",
+         "image": "flag_india.png",
+         "capital": "New Delhi",
          "visited": true
-    }    
+    },
+    {
+         "id": 5,
+         "continentId": 3,  
+         "name": "North Korea",
+         "image": "flag_north_korea.png",
+         "capital": "Pyongyang",
+         "visited": true
+    },
+    {
+         "id": 6,
+         "continentId": 4, 
+         "name": "Australia",
+         "image": "flag_australia.png",
+         "capital": "Canberra",
+         "visited": true
+    },    
+    {
+         "id": 7,
+         "continentId": 5, 
+         "name": "Bulgaria",
+         "image": "flag_bulgaria.png",
+         "capital": "Sofia",
+         "visited": true
+    },
+    {
+         "id": 8,
+         "continentId": 5,
+         "name": "France",
+         "image": "flag_france.png",
+         "capital": "Paris",
+         "visited": true
+    },    
+    {
+         "id": 9,
+         "continentId": 6,
+         "name": "USA",
+         "image": "flag_usa.png",
+         "capital": "Washington, D.C.",
+         "visited": true
+    },
+    {
+         "id": 10,
+         "continentId": 6,
+         "name": "Mexico",
+         "image": "flag_mexico.png",
+         "capital": "Mexico City",
+         "visited": true
+    },
+    {
+         "id": 11,
+         "continentId": 7,
+         "name": "Brazil",
+         "image": "flag_brazil.png",
+         "capital": "Brasília",
+         "visited": true
+    },
+    {
+         "id": 12,
+         "continentId": 7,
+         "name": "Argentina",
+         "image": "flag_argentina.png",
+         "capital": "Buenos Aires",
+         "visited": true
+    }          
 ]
+
+
