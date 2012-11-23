@@ -1,0 +1,30 @@
+[
+    {
+         "id": 1,
+         "name": "Sudan",
+         "continent": "Africa",
+         "image": "sudan.png",
+         "visited": true
+    },
+    {
+         "id": 2,
+         "name": "Congo",
+         "continent": "Africa",
+         "image": "congo.png",
+         "visited": true
+    },
+    {
+         "id": 3,
+         "name": "Zimbabwe",
+         "continent": "Africa",
+         "image": "zimbabwe.png",
+         "visited": true
+    },
+    {
+         "id": 4,
+         "name": "Bulgaria",
+         "continent": "Europe",
+         "image": "bulgaria.png",
+         "visited": true
+    }    
+]
