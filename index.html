@@ -96,12 +96,12 @@
 
 
     <script id="continentsTemplate" type="text/x-kendo-template">
-        <a data-role="detailbutton" data-style="detaildisclose" href="\#continentDetails?id=#:id#"></a>
-
         <a class="details-link" data-role="listview-link" href="\#countries?continentId=#:id#">
            <img src="content/images/75/#:image#.jpg" />
            <h2>#:name#</h2>
         </a>
+
+        <a data-role="button" data-icon="more" href="\#continentDetails?id=#:id#"></a>        
     </script>
 
     <script id="continentDetailsTemplate" type="text/x-kendo-template">
