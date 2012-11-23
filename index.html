@@ -19,6 +19,7 @@
         <footer data-role="footer" data-id="default">
             <div data-role="tabstrip">
                 <a href="#continents" data-icon="home">Home</a>
+                <a href="#ratings" data-icon="favorites">Ratings</a>
                 <a href="#account" data-icon="contacts">Account</a>
             </div>
         </footer>
@@ -77,6 +78,19 @@
         </div>
     </div>
 
+    <div data-role="view" id="ratings" data-title="Ratings" data-layout="default">
+        <ul data-role="listview" data-style="inset" data-type="group">
+            <li>
+                Country Ratings:
+                <ul>
+                    <li data-icon="toprated" style="background-color: #3589e7; color: #fff;">1. USA</li>
+                    <li data-icon="toprated">2. Bulgaria</li>
+                    <li data-icon="toprated">3. France</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
     <div data-role="view" id="account" data-layout="default" data-title="My Account">
         <ul data-role="listview" data-style="inset" data-type="group">
             <li>Account
@@ -121,12 +135,32 @@
     </script>   
 
     <script id="countryDetailsTemplate" type="text/x-kendo-template">
-        <h2>#:name#</h2>
-        <hr>
-        <h4><span style="color: gray">Capital:</span> #:capital#</h4>
-        <h4><span style="color: gray">Population:</span> #:population#</h4>
-        <h4><span style="color: gray">GDP:</span> #:gdp#</h4>
+        <ul data-role="listview" data-style="inset" data-type="group">
+            <li>Cuntry Info
+                <ul>
+                    <li><img src="content/images/48/#:image#" /><h2>#:name#</h2></li>
+                    <li>
+                        <h5>
+                            <span style="color: gray">Capital:</span> #:capital#
+                            <br/><span style="color: gray">Population:</span> #:population#
+                            <br/><span style="color: gray">GDP:</span> #:gdp#
+                        </h5>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </script>    
+
+    <style scoped>
+        #countryDetails img {
+            float: left;
+            margin: 1em;
+            -webkit-box-shadow: 0 1px 3px #333;
+            box-shadow: 0 1px 3px #333;
+            -webkit-border-radius: 8px;
+            border-radius: 8px;
+        }
+    </style>       
 
     <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
     <script src="http://cdn.kendostatic.com/2012.3.1114/js/kendo.all.min.js"></script>    
