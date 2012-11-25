@@ -2,7 +2,7 @@
     {
          "id": 1,
          "name": "Africa",
-         "details": "Area: 30,221,532 km2 ",
+         "details": "Area: 30,221,532 km2",
          "image": "africa-globe",
          "description": "Africa is the world's second-largest and second-most-populous continent. At about 30.2 million km² (11.7 million sq mi) including adjacent islands, it covers six percent of the Earth's total surface area and 20.4 percent of the total land area.[2] With 1.0 billion people (as of 2009, see table), it accounts for about 14.72% of the world's human population.",
          "flag": true
@@ -20,7 +20,7 @@
          "name": "Asia",
          "details": "Area: 44,579,000 km2",
          "image": "asia-globe",
-         "description": "Asia (Listeni/ˈeɪʒə/ or /ˈeɪʃə/) is the world's largest and most populous continent, located primarily in the eastern and northern hemispheres. It covers 8.7% of the Earth's total surface area (or 30% of its land area) and with approximately 4.3 billion people, it hosts 60% of the world's current human population. During the 20th century Asia's population nearly quadrupled.[",
+         "description": "Asia (Listeni/ˈeɪʒə/ or /ˈeɪʃə/) is the world's largest and most populous continent, located primarily in the eastern and northern hemispheres. It covers 8.7% of the Earth's total surface area (or 30% of its land area) and with approximately 4.3 billion people, it hosts 60% of the world's current human population. During the 20th century Asia's population nearly quadrupled.",
          "flag": true
     },
     {
@@ -52,7 +52,7 @@
          "name": "South America",
          "details": "Area: 17,840,000 km2",
          "image": "south-america-globe",
-         "description": "South America is a continent located in the Western Hemisphere, mostly in the Southern Hemisphere, with a relatively small portion in the Northern Hemisphere. The continent is also considered a subcontinent of the Americas.[2][3]",
+         "description": "South America is a continent located in the Western Hemisphere, mostly in the Southern Hemisphere, with a relatively small portion in the Northern Hemisphere. The continent is also considered a subcontinent of the Americas.",
          "flag": true
     }
 ]
